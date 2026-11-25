@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-bedrock-runtime`](https://www.npmjs.com/package/@aws-sdk/client-bedrock-runtime/v/3.1176.0).
+[`@aws-sdk/client-bedrock-runtime`](https://www.npmjs.com/package/@aws-sdk/client-bedrock-runtime/v/3.1177.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-bedrock-runtime - [https://cloud-sdk-builds.github.io/?sdk=client-bedrock-runtime](https://cloud-sdk-builds.github.io/?sdk=client-bedrock-runtime)
-- @aws-sdk/client-bedrock-runtime v3.1176.0 - [https://cloud-sdk-builds.github.io/?sdk=client-bedrock-runtime&version=3.1176.0](https://cloud-sdk-builds.github.io/?sdk=client-bedrock-runtime&version=3.1176.0)
+- @aws-sdk/client-bedrock-runtime v3.1177.0 - [https://cloud-sdk-builds.github.io/?sdk=client-bedrock-runtime&version=3.1177.0](https://cloud-sdk-builds.github.io/?sdk=client-bedrock-runtime&version=3.1177.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bedrock-runtime@3.1176.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bedrock-runtime@3.1177.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-pcrPCo3oP1aYNd+qS5qDnwqYz/c8ezRQKvQly5cyzS52TPHeb86wb1/IobBlEJbx
+sha384-oV1X8HHdNICdLL/UJ9OBMSax1HjCTsx8v1e1GcCPLHaL8uMGJ3o3Hpo1JgL52v86
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-bedrock-runtime": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bedrock-runtime@3.1176.0/index.min.mjs"
+            "@aws-sdk/client-bedrock-runtime": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bedrock-runtime@3.1177.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bedrock-runtime@3.1176.0/index.min.mjs": "sha384-pcrPCo3oP1aYNd+qS5qDnwqYz/c8ezRQKvQly5cyzS52TPHeb86wb1/IobBlEJbx"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bedrock-runtime@3.1177.0/index.min.mjs": "sha384-oV1X8HHdNICdLL/UJ9OBMSax1HjCTsx8v1e1GcCPLHaL8uMGJ3o3Hpo1JgL52v86"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-bedrock-runtime": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bedrock-runtime@3.1176.0/index.min.mjs"
+                        "@aws-sdk/client-bedrock-runtime": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bedrock-runtime@3.1177.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bedrock-runtime@3.1176.0/index.min.mjs": "sha384-pcrPCo3oP1aYNd+qS5qDnwqYz/c8ezRQKvQly5cyzS52TPHeb86wb1/IobBlEJbx"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bedrock-runtime@3.1177.0/index.min.mjs": "sha384-oV1X8HHdNICdLL/UJ9OBMSax1HjCTsx8v1e1GcCPLHaL8uMGJ3o3Hpo1JgL52v86"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1176.0`)
+* Always pin to a specific version (`@3.1177.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-bedrock-runtime/blob/refs/tags/3.1176.0/LICENSE
+https://github.com/cloud-sdk-builds/client-bedrock-runtime/blob/refs/tags/3.1177.0/LICENSE
 ```
 
 ---
